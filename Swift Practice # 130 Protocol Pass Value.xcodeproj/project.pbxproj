@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		2DD40DC027A41E2400A25E7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD40DBF27A41E2400A25E7D /* AppDelegate.swift */; };
 		2DD40DC227A41E2400A25E7D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD40DC127A41E2400A25E7D /* SceneDelegate.swift */; };
-		2DD40DC427A41E2400A25E7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD40DC327A41E2400A25E7D /* ViewController.swift */; };
 		2DD40DC727A41E2400A25E7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DD40DC527A41E2400A25E7D /* Main.storyboard */; };
 		2DD40DC927A41E2600A25E7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DD40DC827A41E2600A25E7D /* Assets.xcassets */; };
 		2DD40DCC27A41E2600A25E7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DD40DCA27A41E2600A25E7D /* LaunchScreen.storyboard */; };
+		2DD40DD427A41E4000A25E7D /* FrontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD40DD327A41E4000A25E7D /* FrontViewController.swift */; };
+		2DD40DD627A41E6100A25E7D /* SelectSideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD40DD527A41E6100A25E7D /* SelectSideViewController.swift */; };
+		2DD40DD827A43C6300A25E7D /* SelectProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD40DD727A43C6300A25E7D /* SelectProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2DD40DBC27A41E2400A25E7D /* Swift Practice # 130 Protocol Pass Value.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Practice # 130 Protocol Pass Value.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DD40DBF27A41E2400A25E7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DD40DC127A41E2400A25E7D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2DD40DC327A41E2400A25E7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2DD40DC627A41E2400A25E7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2DD40DC827A41E2600A25E7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DD40DCB27A41E2600A25E7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DD40DCD27A41E2600A25E7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DD40DD327A41E4000A25E7D /* FrontViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontViewController.swift; sourceTree = "<group>"; };
+		2DD40DD527A41E6100A25E7D /* SelectSideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSideViewController.swift; sourceTree = "<group>"; };
+		2DD40DD727A43C6300A25E7D /* SelectProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,10 @@
 			children = (
 				2DD40DBF27A41E2400A25E7D /* AppDelegate.swift */,
 				2DD40DC127A41E2400A25E7D /* SceneDelegate.swift */,
-				2DD40DC327A41E2400A25E7D /* ViewController.swift */,
 				2DD40DC527A41E2400A25E7D /* Main.storyboard */,
+				2DD40DD327A41E4000A25E7D /* FrontViewController.swift */,
+				2DD40DD527A41E6100A25E7D /* SelectSideViewController.swift */,
+				2DD40DD727A43C6300A25E7D /* SelectProtocol.swift */,
 				2DD40DC827A41E2600A25E7D /* Assets.xcassets */,
 				2DD40DCA27A41E2600A25E7D /* LaunchScreen.storyboard */,
 				2DD40DCD27A41E2600A25E7D /* Info.plist */,
@@ -137,9 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DD40DC427A41E2400A25E7D /* ViewController.swift in Sources */,
+				2DD40DD427A41E4000A25E7D /* FrontViewController.swift in Sources */,
+				2DD40DD627A41E6100A25E7D /* SelectSideViewController.swift in Sources */,
 				2DD40DC027A41E2400A25E7D /* AppDelegate.swift in Sources */,
 				2DD40DC227A41E2400A25E7D /* SceneDelegate.swift in Sources */,
+				2DD40DD827A43C6300A25E7D /* SelectProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
